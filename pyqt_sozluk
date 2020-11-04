@@ -1,7 +1,7 @@
 import sys
 from PyQt5 import QtWidgets
-from ari_sozluk import Ui_Ana_Pencere // Bu, Qt Designer'da oluşturulan başka bir dosyadır.
-from sozluk_aktarma import aktarma // Bu, sözlük olarak oluşturulan başka bir dosyadır.
+from ari_sozluk import Ui_Ana_Pencere # Bu, Qt Designer'da oluşturulan başka bir dosyadır.
+from sozluk_aktarma import aktarma # Bu, sözlük olarak oluşturulan başka bir dosyadır.
 import re
 
 class Uygulama(QtWidgets.QMainWindow):
